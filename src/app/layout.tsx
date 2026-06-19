@@ -40,6 +40,9 @@ export default function RootLayout({
           >
             David Hampton Bisson
           </Link>
+          <p className="font-mono text-xs uppercase tracking-[0.3em] text-muted">
+            ⌄ Samples ⌄
+          </p>
           <SiteNav />
         </header>
         {children}
