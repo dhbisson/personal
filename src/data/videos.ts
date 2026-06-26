@@ -51,18 +51,6 @@ Editor - David Bisson`,
     categories: ["editing", "directing", "cinematography", "producing"],
   },
   {
-    slug: "suwa-fundraiser-selections",
-    youtubeId: "pEeg18bvdGA",
-    title: "Southern Utah Wilderness Alliance Fundraiser — Selections",
-    blurb: `Selections from the 30 Year Anniversary Fundraiser for the Southern Utah Wilderness Alliance
-
-Producer - David Bisson
-Cinematographer - David Bisson
-Editor - David Bisson`,
-    date: "2026-06-01",
-    categories: ["editing", "directing", "cinematography", "producing"],
-  },
-  {
     slug: "revolver",
     youtubeId: "LGbJteyxtVw",
     title: "Revolver",
