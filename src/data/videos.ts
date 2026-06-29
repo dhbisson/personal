@@ -16,6 +16,8 @@ export type Video = {
   youtubeId: string;
   title: string;
   blurb: string;
+  /** Optional short caption shown under the thumbnail on listing pages. */
+  caption?: string;
   /** ISO date string (YYYY-MM-DD) the piece was released. */
   date: string;
   /** Areas of work this piece belongs to; it appears under each one. */
@@ -35,6 +37,7 @@ Cinematographer - David Bisson
 Editor - David Bisson
 
 Models - (not David Bisson)`,
+    caption: "Photography Studio Promo",
     date: "2026-06-01",
     categories: ["editing", "directing", "cinematography", "producing"],
   },
@@ -47,6 +50,7 @@ Models - (not David Bisson)`,
 Producer - David Bisson
 Cinematographer - David Bisson
 Editor - David Bisson`,
+    caption: "SUWA 30th Anniversary Fundraiser",
     date: "2026-06-01",
     categories: ["editing", "directing", "cinematography", "producing"],
   },
@@ -58,6 +62,7 @@ Editor - David Bisson`,
 
 Cinematographer - David Bisson
 Producer - David Bisson`,
+    caption: "Band Performance — Revolver",
     date: "2026-06-01",
     categories: ["editing", "directing", "cinematography", "producing"],
   },
@@ -66,6 +71,7 @@ Producer - David Bisson`,
     youtubeId: "Iqpc-St38Ew",
     title: "PureWash 2",
     blurb: `Produced by David Bisson for Dagadak`,
+    caption: "Product Promo — Dagadak",
     date: "2026-06-01",
     categories: ["editing", "directing", "cinematography", "producing"],
   },
@@ -78,6 +84,7 @@ Producer - David Bisson`,
 Producer - David Bisson
 Cinematographer - David Bisson
 Editor - David Bisson`,
+    caption: "Sandboxr Promo — Ender's Game",
     date: "2026-06-01",
     categories: ["editing", "directing", "cinematography", "producing"],
   },
@@ -89,6 +96,7 @@ Editor - David Bisson`,
 Aurora Advertising Award - Best of Show
 
 I made this myself for $50 in one day and it won awards and was broadcast.`,
+    caption: "Aurora Advertising Best of Show Winner",
     date: "2026-06-01",
     categories: ["editing", "directing", "cinematography", "producing", "awards"],
   },
@@ -101,6 +109,7 @@ I made this myself for $50 in one day and it won awards and was broadcast.`,
 Sundance Film Festival Selection
 Cinematographer - David Bisson
 Producer - David Bisson`,
+    caption: "Sundance Selection",
     date: "2009-01-01",
     categories: ["producing", "cinematography", "awards"],
   },
@@ -111,6 +120,7 @@ Producer - David Bisson`,
     blurb: `BYU Copellia - A Backstage Look
 
 Cinematographer - David Bisson`,
+    caption: "BYU Coppélia — Backstage Look",
     date: "2026-06-01",
     categories: ["producing", "cinematography"],
   },
@@ -121,6 +131,7 @@ Cinematographer - David Bisson`,
     blurb: `Penny Dreadful - Audience award winner at Clermont-Ferrand international Short Film Festival
 
 Co-Producer - David Bisson`,
+    caption: "Audience Choice Award — Clermont-Ferrand International Short Film Festival",
     date: "2026-06-01",
     categories: ["producing", "awards"],
   },
@@ -130,6 +141,7 @@ Co-Producer - David Bisson`,
     title: "Mali Basketball",
     blurb: `Mali Basketbal Doc
 Editor - David Bisson`,
+    caption: "Mali Basketball — Documentary",
     date: "2026-06-01",
     categories: ["editing"],
   },
@@ -139,6 +151,7 @@ Editor - David Bisson`,
     title: "Levi's Go Forth — Spec Ad",
     blurb: `Levi's Go Forth - Spec for ThinkingBox
 Co-Videograoher - David Bisson`,
+    caption: "Levi's Go Forth — Spec Ad",
     date: "2026-06-01",
     categories: ["cinematography"],
   },
@@ -149,6 +162,7 @@ Co-Videograoher - David Bisson`,
     blurb: `eSports World Cup 2025
 Chess Hype Tease
 Editor - David Bisson`,
+    caption: "eSports World Cup 2025 — Chess Hype Tease",
     date: "2025-07-29",
     categories: ["editing"],
   },

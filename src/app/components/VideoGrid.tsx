@@ -48,6 +48,12 @@ export function VideoGrid({ items }: { items: Video[] }) {
               </span>
             </div>
           </Link>
+
+          {video.caption ? (
+            <p className="mt-3 font-mono text-xs uppercase tracking-[0.18em] text-muted">
+              {video.caption}
+            </p>
+          ) : null}
         </li>
       ))}
     </ul>
