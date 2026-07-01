@@ -98,7 +98,7 @@ Aurora Advertising Award - Best of Show
 I made this myself for $50 in one day and it won awards and was broadcast.`,
     caption: "Aurora Advertising Best of Show Winner",
     date: "2026-06-01",
-    categories: ["editing", "directing", "cinematography", "producing", "awards"],
+    categories: ["awards"],
   },
   {
     slug: "nobody-knows-you",
@@ -137,7 +137,7 @@ Co-Producer - David Bisson`,
   },
   {
     slug: "mali-basketball",
-    youtubeId: "QkL-mCcnqvI",
+    youtubeId: "lVEQmfUmNOI",
     title: "Mali Basketball",
     blurb: `Mali Basketbal Doc
 Editor - David Bisson`,
