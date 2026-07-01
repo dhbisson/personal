@@ -98,7 +98,7 @@ Aurora Advertising Award - Best of Show
 I made this myself for $50 in one day and it won awards and was broadcast.`,
     caption: "Aurora Advertising Best of Show Winner",
     date: "2026-06-01",
-    categories: ["awards"],
+    categories: ["directing", "awards"],
   },
   {
     slug: "nobody-knows-you",
